@@ -1,0 +1,16 @@
+[project]
+name = "ml-ramverk-l3-jasmin"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi>=0.135.1",
+    "onnx>=1.20.1",
+    "onnxruntime>=1.24.2",
+    "onnxscript>=0.6.2",
+    "requests>=2.32.5",
+    "torch>=2.10.0",
+    "torchvision>=0.25.0",
+    "uvicorn>=0.41.0",
+]
