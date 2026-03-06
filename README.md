@@ -3,6 +3,8 @@
 ## Description
 A containerized FastAPI application that serves a trained CIFAR-10 image classification model. The PyTorch model from Lab 2 is exported to ONNX format and served via a POST /predict endpoint inside a Docker container.
 
+This lab was completed individually.
+
 ## Requirements
 - Python 3.12 or later
 - `uv` package manager ([installation](https://docs.astral.sh/uv/))
